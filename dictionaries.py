@@ -31,6 +31,11 @@ for key, value in cat.items(): #gets item pairs
 #copy - makes copy of dictionary 
 #fromkeys - called on empty dict passes in iterable collection														
 #get - retrieves a key in an object and returns none if key does not exist
-# pop
-# popitems
-# update
+# pop - takes single argument - key and returns removed value
+# popitems - remove random item from dictionary 
+# update - add keyvalue pairs from one dictionary to another
+
+#dictionary comprehension
+
+#{ ___ : ___ for ___ in ___} basic comp
+#{key:('pair output' if x 'logic' else 'pair output') for key in list }
